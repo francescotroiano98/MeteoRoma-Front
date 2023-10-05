@@ -1,11 +1,15 @@
 <template>
-    <div class="card">
-        <h1>card container</h1>
+    <div class="container">
+        <WeatherCard/>
     </div>
 </template>
 <script>
+import WeatherCard from './WeatherCard.vue';
 export default {
-    name:'WeatherCardsContainer'
+    name:'WeatherCardsContainer',
+    components:{
+        WeatherCard,
+    }
 }
 </script>
 <style lang="scss" scoped>
