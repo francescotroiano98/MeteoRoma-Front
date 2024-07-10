@@ -38,6 +38,14 @@ export default {
                     name: 'HOME'
                 },
                 {
+                    route: '/login',
+                    name: 'LOGIN'
+                },
+                {
+                    route: '/signin',
+                    name: 'SIGNIN'
+                },
+                {
                     route: '/forecast',
                     name: 'FORECAST'
                 },
